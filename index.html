@@ -1,16 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>penguin fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Matemasie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <div></div>
+    <header class="bg-[#FFFBF0] h-5/6">
+        <div class="flex  h-20 justify-around items-center w-4/5 m-auto">
+            <div>
+                <img class="w-2/5" src="icons/logo.png" alt="">
+            </div>
+            <div>
+                <nav>
+                    <ul class="flex cursor-pointer">
+                        <li class="uppercase font-semibold p-7 ">home</li>
+                        <li class="uppercase font-semibold p-7">product</li>
+                        <li class="uppercase font-semibold p-7">About</li>
+                        <li class="uppercase font-semibold p-7">Contact</li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- header content area -->
+
+        <div class="flex w-4/5 m-auto justify-between">
+            <div class=" m-auto -mx-0">
+                <h1 class="uppercase font-semibold text-7xl pb-7">
+                    <span class="text-[#FABE4C]">Be the Penguins</span> <br>of Winter
+                </h1>
+                <p class="pb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, obcaecati.</p>
+                <button class="flex h-14 w-32 rounded-xl bg-gradient-to-r from-[#65a83e] to-[#6fb845] to-90% justify-center items-center text-white font-semibold">
+                    <!-- <div class="h-14 bg-gradient-to-r from-sky-500 to-indigo-500"></div> -->
+                    <img class="w-8" src="icons/shopping-cart 1.png" alt="">
+                    buy now
+                </button>
+            </div>
+            <div class="">
+                <img src="images/model.png" alt="">
+            </div>
+
+        </div>
+
     </header>
 
-    
+
 </body>
+
 </html>
